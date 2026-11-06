@@ -1,0 +1,42 @@
+# ==========================================
+# EventEase — Git ignore rules
+# ==========================================
+
+# --- Build output / dependencies ---
+backend/target/
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+node_modules/
+
+# --- Logs and temporary files ---
+*.log
+logs/
+*.tmp
+*.bak
+
+# --- Local configuration & secrets ---
+# Keep application-example.properties committed; never commit your real config.
+backend/src/main/resources/application.properties
+backend/src/main/resources/application-local.properties
+.env
+.env.*
+!.env.example
+
+# --- IDE / editor files ---
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.classpath
+*.project
+.settings/
+.factorypath
+*.launch
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
