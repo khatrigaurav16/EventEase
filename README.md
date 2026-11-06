@@ -46,6 +46,7 @@ EventEase/
 │   ├── package.json
 │   └── tsconfig*.json
 ├── ARCHITECTURE.md               # Architecture and design decisions
+├── LICENSE                       # MIT License
 ├── .gitignore
 └── README.md
 ```
@@ -222,4 +223,4 @@ duplicate active registrations.
 
 ## License
 
-This project was created for educational purposes.
+This project is licensed under the [MIT License](LICENSE).
